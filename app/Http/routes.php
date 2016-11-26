@@ -29,4 +29,5 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('home/index','HomeController@index');
+    Route::get('home/about','HomeController@about');
 });
