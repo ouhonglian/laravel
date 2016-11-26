@@ -11,4 +11,7 @@ class HomeController extends Controller
     public function index(){
         return '欢迎来到这里';
     }
+    public function about(){
+        return '关于我们，我们的简介页面';
+    }
 }
